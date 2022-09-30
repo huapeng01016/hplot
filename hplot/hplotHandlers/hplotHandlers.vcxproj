@@ -226,7 +226,8 @@
     </Link>
     <PostBuildEvent>
       <Message>Setting permissions on handler DLL (to enable load by SearchFilterHost.exe)...</Message>
-      <Command>icacls.exe "$(TargetPath)" /grant *S-1-5-32-545:RX</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
